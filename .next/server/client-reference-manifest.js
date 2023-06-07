@@ -2618,20 +2618,6 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "/Users/john.marley/Documents/GitHub/teste-skeleton-react/src/styles/globals.css#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
-    },
-    "/Users/john.marley/Documents/GitHub/teste-skeleton-react/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.jsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
-    },
     "/Users/john.marley/Documents/GitHub/teste-skeleton-react/node_modules/next/dist/client/image.js": {
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "*",
@@ -2967,6 +2953,20 @@ self.__RSC_MANIFEST={
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
+    },
+    "/Users/john.marley/Documents/GitHub/teste-skeleton-react/src/styles/globals.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
+    },
+    "/Users/john.marley/Documents/GitHub/teste-skeleton-react/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.jsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
     }
   }
 }
