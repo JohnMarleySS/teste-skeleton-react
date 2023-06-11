@@ -5,7 +5,7 @@ const fetchGames = async () => {
     const res = await fetch(
       `https://api.rawg.io/api/games?key=${process.env.RAWG}`
     );
-    await new Promise((resolve) => setTimeout(resolve, 2000));
+    await new Promise((resolve) => setTimeout(resolve, 4000));
 
     const data = await res.json();
     return data.results;
@@ -16,8 +16,6 @@ const fetchGames = async () => {
 
 export default async function App() {
   const games = await fetchGames();
-
-  console.log(games);
   return (
     <main className=" m-10 rounded-md grid grid-cols-4 gap-10">
       {games.map((game) => {

@@ -913,6 +913,32 @@ self.__RSC_MANIFEST={
         ],
         "async": false
       }
+    },
+    "(app-client)/./src/app/loading.jsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/loading.jsx",
+        "name": "*",
+        "chunks": [
+          "app/loading:static/chunks/app/loading.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/loading.jsx",
+        "name": "",
+        "chunks": [
+          "app/loading:static/chunks/app/loading.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/loading.jsx",
+        "name": "default",
+        "chunks": [
+          "app/loading:static/chunks/app/loading.js"
+        ],
+        "async": false
+      }
     }
   },
   "edgeSSRModuleMapping": {},
@@ -2967,6 +2993,30 @@ self.__RSC_MANIFEST={
       "chunks": [
         "static/css/app/layout.css"
       ]
+    },
+    "/Users/john.marley/Documents/GitHub/teste-skeleton-react/src/app/loading.jsx": {
+      "id": "(app-client)/./src/app/loading.jsx",
+      "name": "*",
+      "chunks": [
+        "app/loading:static/chunks/app/loading.js"
+      ],
+      "async": false
+    },
+    "/Users/john.marley/Documents/GitHub/teste-skeleton-react/src/app/loading.jsx#": {
+      "id": "(app-client)/./src/app/loading.jsx",
+      "name": "",
+      "chunks": [
+        "app/loading:static/chunks/app/loading.js"
+      ],
+      "async": false
+    },
+    "/Users/john.marley/Documents/GitHub/teste-skeleton-react/src/app/loading.jsx#default": {
+      "id": "(app-client)/./src/app/loading.jsx",
+      "name": "default",
+      "chunks": [
+        "app/loading:static/chunks/app/loading.js"
+      ],
+      "async": false
     }
   }
 }
